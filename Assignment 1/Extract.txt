@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE items [
+
+<!ELEMENT items (item*)>
+
+<!ATTLIST items burpVersion CDATA "">
+
+<!ATTLIST items exportTime CDATA "">
+
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+
+<!ELEMENT time (#PCDATA)>
+
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT host (#PCDATA)>
+
+<!ATTLIST host ip CDATA "">
+
+<!ELEMENT port (#PCDATA)>
+
+<!ELEMENT protocol (#PCDATA)>
+
+<!ELEMENT method (#PCDATA)>
+
+<!ELEMENT path (#PCDATA)>
+
+<!ELEMENT extension (#PCDATA)>
+
+<!ELEMENT request (#PCDATA)>
+
+<!ATTLIST request base64 (true|false) "false">
+
+<!ELEMENT status (#PCDATA)>
+
+<!ELEMENT responselength (#PCDATA)>
+
+<!ELEMENT mimetype (#PCDATA)>
+
+<!ELEMENT response (#PCDATA)>
+
+<!ATTLIST response base64 (true|false) "false">
+
+<!ELEMENT comment (#PCDATA)>
+
+]>
+
+<items burpVersion="2021.10.3" exportTime="Fri Apr 15 04:55:43 EDT 2022">
+
+  <item>
+
+    <time>Fri Apr 15 04:55:17 EDT 2022</time>
+
+    <url><![CDATA[http://192.168.100.168/mutillidae/index.php?page=user-info.php&username=dadwad&password=dasdafsdf&user-info-php-submit-button=View+Account+Details]]></url>
+
+    <host ip="192.168.100.168">192.168.100.168</host>
+
+    <port>80</port>
+
+    <protocol>http</protocol>
+
+    <method><![CDATA[GET]]></method>
+
+    <path><![CDATA[/mutillidae/index.php?page=user-info.php&username=dadwad&password=dasdafsdf&user-info-php-submit-button=View+Account+Details]]></path>
+
+    <extension>php</extension>
+
+    <request base64="true"><![CDATA[R0VUIC9tdXRpbGxpZGFlL2luZGV4LnBocD9wYWdlPXVzZXItaW5mby5waHAmdXNlcm5hbWU9ZGFkd2FkJnBhc3N3b3JkPWRhc2RhZnNkZiZ1c2VyLWluZm8tcGhwLXN1Ym1pdC1idXR0b249VmlldytBY2NvdW50K0RldGFpbHMgSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguMTAwLjE2OA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjo5MS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzkxLjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KQ29ubmVjdGlvbjogY2xvc2UNClJlZmVyZXI6IGh0dHA6Ly8xOTIuMTY4LjEwMC4xNjgvbXV0aWxsaWRhZS9pbmRleC5waHA/cGFnZT11c2VyLWluZm8ucGhwJnVzZXJuYW1lPWdnZHJmZyZwYXNzd29yZD1yZ2VyZ2VyZyZ1c2VyLWluZm8tcGhwLXN1Ym1pdC1idXR0b249VmlldytBY2NvdW50K0RldGFpbHMNCkNvb2tpZTogUEhQU0VTU0lEPWNjZDJhZTc1OWQxYmFhZWMzMzkxYTc1MjgxZDdkMTA2DQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCg==]]></request>
+
+    <status></status>
+
+    <responselength></responselength>
+
+    <mimetype></mimetype>
+
+    <response base64="true"></response>
+
+    <comment></comment>
+
+  </item>
+
+</items>
